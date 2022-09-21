@@ -22,4 +22,4 @@ class GameProcess {
       return 0;
     }
   }
-}
+}//
