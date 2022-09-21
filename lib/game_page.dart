@@ -92,9 +92,11 @@ class _GamePageState extends State<GamePage> {
         //การกด
         onTap: () {
           setState(() {
-            if (num == 0 || num == 1 || num == 2 || num == 3 || num == 4 ||
-                num == 5 || num == 6 || num == 7 || num == 8 || num == 9) {
-              _show = _show + num.toString();
+            if(_show.length<=2) {
+              if (num == 0 || num == 1 || num == 2 || num == 3 || num == 4 ||
+                  num == 5 || num == 6 || num == 7 || num == 8 || num == 9) {
+                _show = _show + num.toString();
+              }
             }
           });
         },
