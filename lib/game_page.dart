@@ -166,7 +166,7 @@ class _GamePageState extends State<GamePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        "assets/images/math.png",
+                        "assets/images/guess_logo.png",
                         height: 90,
                         width: 90,
                       ),
